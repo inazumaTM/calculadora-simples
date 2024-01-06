@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc</title>
+</head>
+<body>
+    <header>
+        <h2 class="aviso"></h2>
+    </header>
+    <div class="container">
+        <div class="calculadora">
+            <div class="painel">
+                <span class="operador"></span>
+            </div>
+            <div class="teclado">
+                <button class="clean" onclick="clean()">C</button>
+                <button class="sinal" onclick="sinal()">±</button>
+                <button class="divisao" onclick="inserir('÷')">÷</button>
+                <button class="multiplicacao" onclick="inserir('×')">×</button>
+                <button class="n1" onclick="inserir('1')">1</button>
+                <button class="n2" onclick="inserir('2')">2</button>
+                <button class="n3" onclick="inserir('3')">3</button>
+                <button class="subtracao" onclick="inserir('-')">-</button>
+                <button class="n4" onclick="inserir('4')">4</button>
+                <button class="n5" onclick="inserir('5')">5</button>
+                <button class="n6" onclick="inserir('6')">6</button>
+                <button class="adicao" onclick="inserir('+')">+</button>
+                <button class="n7" onclick="inserir('7')">7</button>
+                <button class="n8" onclick="inserir('8')">8</button>
+                <button class="n9" onclick="inserir('9')">9</button>
+                <button class="igual" onclick="calcular()">=</button>
+                <button class="n0"  onclick="inserir('0')">0</button>
+                <button class="ponto" onclick="inserir('.')">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
